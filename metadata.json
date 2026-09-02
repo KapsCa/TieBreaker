@@ -1,0 +1,6 @@
+{
+  "name": "The Tiebreaker",
+  "description": "Asistente inteligente para la toma de decisiones con análisis de pros y contras, tablas comparativas, análisis FODA y veredictos ponderados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
