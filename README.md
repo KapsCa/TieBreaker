@@ -1,13 +1,27 @@
-<!-- kapsca-brand v1 (vendored copy of KapsCa/kapsca-brand; do not edit manually) -->
-<p align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/brand/kapsca-512.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/brand/kapsca-mono-white.svg">
-  <img src="assets/brand/kapsca-512.png" alt="KapsCa" width="96">
-</picture></p>
-<p align="center"><img src="assets/brand/banner.png" alt="KapsCa" width="700"></p>
-<!-- /kapsca-brand -->
+# TieBreaker ⚖️
 
+Un **juez** que ayuda a cortar empates y tomar decisiones: le das las opciones en juego y te devuelve un veredicto con el razonamiento a la vista, para no quedarte dando vueltas entre dos caminos parecidos.
 
-# TieBreaker
+Herramienta creada durante el **curso de creación de apps con IA de Google** — experiencia de uso directa, sin backend propio.
 
-<pending documentation>
+## Qué hace
+
+- Recibe las opciones (y el contexto que importa de cada una).
+- Compara y emite un veredicto con justificación, no solo un número.
+- Sirve para decisiones técnicas y para las que no lo son tanto.
+
+## Stack
+
+`TypeScript` · `Vite` · app web con `server.ts` (proxy de la API del modelo).
+
+## Correr en local
+
+```bash
+bun install
+cp .env.example .env    # cargar la API key del proveedor
+bun run dev
+```
+
+## Estado
+
+Prototipo funcional del curso. Sin garantías de producción: la idea es que decidir sea explícito y rápido.
